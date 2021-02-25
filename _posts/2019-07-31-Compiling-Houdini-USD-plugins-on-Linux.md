@@ -57,4 +57,3 @@ If everything went ok, then after starting Houdini you should be able to create 
 For more info about how to use them go to [USD Houdini documentation](https://graphics.pixar.com/usd/docs/A-Tour-of-USD-Houdini-Primitives.html)<br><br>
 
 ![My helpful screenshot](/assets/images/2019-07-31-Compiling-Houdini-USD-plugins-on-Linux/07.jpg)
-
