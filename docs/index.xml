@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>kubo-von.github.io</title>
+        <link>https://kubo-von.github.io/</link>
+        <description>Recent content on kubo-von.github.io</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 25 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kubo-von.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Installing Maya On Pop!OS and Ubuntu 20.10</title>
+        <link>https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/</link>
+        <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+        
+        <guid>https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/</guid>
+        <description>&lt;img src="https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/error.jpg" alt="Featured image of post Installing Maya On Pop!OS and Ubuntu 20.10" /&gt;&lt;p&gt;I&amp;rsquo;ve recently spent some time trying to make Maya 2020 work on PopOS 20.10. I was helping a friend, luckily I have no use for Maya myself anymore.
+But since this might be helpful for someone, I thought I&amp;rsquo;d share. &lt;!-- raw HTML omitted --&gt;
+I was using PopOS but all the steps except the last one should apply to ubuntu 20.10 too.&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 145; 
+			flex-basis: 348px&#34;
+	&gt;
+	&lt;a href=&#34;https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/mayaPop.jpg&#34; data-size=&#34;1160x800&#34;&gt;
+		&lt;img src=&#34;https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/mayaPop.jpg&#34;
+			width=&#34;1160&#34;
+			height=&#34;800&#34;
+			srcset=&#34;https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/mayaPop_hub848634b881bd149cf14e6b38d22d30e_98578_480x0_resize_q75_box.jpg 480w, https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/mayaPop_hub848634b881bd149cf14e6b38d22d30e_98578_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;Maya running on Ubuntu 20.10&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;Maya running on Ubuntu 20.10&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Autodesk provides a
+&lt;a class=&#34;link&#34; href=&#34;https://knowledge.autodesk.com/support/maya/learn-explore/caas/simplecontent/content/installing-maya-2020-ubuntu.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;GUIDE&lt;/a&gt;  for installing Maya 2020 on Ubuntu 20.04 &lt;!-- raw HTML omitted --&gt;
+Most of the steps are still valid so I will just point out what I did differently.
+&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;different-steps&#34;&gt;Different steps&lt;/h2&gt;
+&lt;h3 id=&#34;step-2-br&#34;&gt;Step 2 &lt;!-- raw HTML omitted --&gt;&lt;/h3&gt;
+&lt;p&gt;Since &lt;em&gt;libXp6&lt;/em&gt; in &lt;em&gt;ppa:zeehio/libxp&lt;/em&gt; is no longer being updated, I&amp;rsquo;ve downloaded and manually installed the  &lt;em&gt;libxp - 1:1.0.2-2ubuntu1~20.04&lt;/em&gt;  package from &lt;a class=&#34;link&#34; href=&#34;https://launchpad.net/~zeehio/&amp;#43;archive/ubuntu/libxp/&amp;#43;packages&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;HERE&lt;/a&gt; &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h3 id=&#34;step-6-br&#34;&gt;Step 6 &lt;!-- raw HTML omitted --&gt;&lt;/h3&gt;
+&lt;p&gt;I used command &lt;em&gt;sudo dpkg -i xxx.deb&lt;/em&gt; instead of &lt;em&gt;sudo apt-get install ./xxx.deb&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;step-8-br&#34;&gt;Step 8 &lt;!-- raw HTML omitted --&gt;&lt;/h3&gt;
+&lt;p&gt;I used command &lt;em&gt;sudo dpkg -i xxx.deb&lt;/em&gt; instead of &lt;em&gt;sudo apt-get install ./xxx.deb&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;step-11-br&#34;&gt;Step 11 &lt;!-- raw HTML omitted --&gt;&lt;/h3&gt;
+&lt;p&gt;folder &lt;strong&gt;~/tmp&lt;/strong&gt; probably doesn&amp;rsquo;t exist on your system so create it or just use some that exists.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h3 id=&#34;when-you-try-to-run-maya-at-the-end-youll-likely-get-some-errors&#34;&gt;When you try to run Maya at the end, you&amp;rsquo;ll likely get some errors.&lt;/h3&gt;
+&lt;h2 id=&#34;resolving-errors-when-starting-maya-br&#34;&gt;Resolving Errors when starting Maya &lt;!-- raw HTML omitted --&gt;&lt;/h2&gt;
+&lt;p&gt;First some Usefull comands&lt;!-- raw HTML omitted --&gt;
+Show which libraries Maya is picking up:
+{% highlight shell %}
+ldd /usr/autodesk/maya2020/bin/maya.bin
+{% endhighlight %}
+Crash logs: (scroll down)
+{% highlight shell %}
+gedit /var/log/kern.log
+{% endhighlight %}&lt;/p&gt;
+&lt;h3 id=&#34;if-you-get-hash-md5-was-not-found&#34;&gt;If you get &amp;ldquo;hash md5 was not found&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;{% highlight shell %}
+cd /usr/autodesk/maya2020/lib/python2.7/lib-dynload
+sudo mv _hashlib.so rhel_hashlib.so
+sudo cp /usr/autodesk/maya2020/support/python/2.7.11/ubuntu_hashlib.so _hashlib.so
+sudo cp /usr/lib/python2.7/lib-dynload/_hashlib.x86_64-linux-gnu.so _hashlib.so
+{% endhighlight %}&lt;/p&gt;
+&lt;h3 id=&#34;if-you-get-libtbb_previewso2-not-found&#34;&gt;If you get &amp;ldquo;libtbb_preview.so.2 not found&amp;rdquo;&lt;/h3&gt;
+&lt;p&gt;{% highlight shell %}
+sudo ln -s /usr/lib/x86_64-linux-gnu/libtbb.so.2 /usr/lib/x86_64-linux-gnu/libtbb_preview.so.2
+{% endhighlight %}&lt;/p&gt;
+&lt;h3 id=&#34;if-you-get-libssl-errors&#34;&gt;If you get libssl errors&lt;/h3&gt;
+&lt;p&gt;{% highlight shell %}
+sudo ln -sf /opt/Autodesk/Adlm/R17/lib64/libssl.so.1.0.0 /usr/autodesk/maya2020/lib/libssl.so.10
+sudo ln -sf /opt/Autodesk/Adlm/R17/lib64/libcrypto.so.1.0.2 /usr/autodesk/maya2020/lib/libcrypto.so.1.0.2
+{% endhighlight %}&lt;/p&gt;
+&lt;h3 id=&#34;if-you-get-libffiso8-error&#34;&gt;If you get libffi.so.8 error&lt;/h3&gt;
+&lt;p&gt;This one was the hardest to crack.
+libffi was updated since 20.04 and Maya hates the new version.&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 151; 
+			flex-basis: 363px&#34;
+	&gt;
+	&lt;a href=&#34;https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/error.jpg&#34; data-size=&#34;858x567&#34;&gt;
+		&lt;img src=&#34;https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/error.jpg&#34;
+			width=&#34;858&#34;
+			height=&#34;567&#34;
+			srcset=&#34;https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/error_hu25efaa63f020bddfcbd9b21915e4f6ee_64319_480x0_resize_q75_box.jpg 480w, https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/error_hu25efaa63f020bddfcbd9b21915e4f6ee_64319_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;My helpful screenshot&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;My helpful screenshot&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;The solution is to get the older version of this library: &lt;em&gt;libffi.so.7.1.0&lt;/em&gt; and force it to Maya by using:
+{% highlight shell %}
+export LD_PRELOAD=&amp;quot;/pathToTheLibrary/libffi.so.7.1.0&amp;quot;
+{% endhighlight %}
+in terminal before running maya by:
+{% highlight shell %}
+/usr/autodesk/maya2020/bin/maya
+{% endhighlight %}&lt;/p&gt;
+&lt;p&gt;To get this library on PopOS I just installed the .deb from &lt;a class=&#34;link&#34; href=&#34;https://www.ubuntuupdates.org/pm/libffi-dev&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ubuntuupdates.org&lt;/a&gt;
+I installed the version for focal (downagrading) and then installed the groovy (upgrading back again)
+That gave me the 7.1.0 version in /usr/lib/x86_64-linux-gnu/, without messing up my system too much.
+Then I could just run
+{% highlight shell %}
+export LD_PRELOAD=&amp;quot;/usr/lib/x86_64-linux-gnu/libffi.so.7.1.0&amp;quot;
+/usr/autodesk/maya2020/bin/maya
+{% endhighlight %}&lt;/p&gt;
+&lt;p&gt;On bare Ubuntu its a bit more complicated because it doesn&amp;rsquo;t let you downgrade the package so easily, but try searching your system for &lt;em&gt;libffi.so.7.1.0&lt;/em&gt;, you probably have it as part of some app somewhere, in which case try to force the path to it with LD_PRELOAD.&lt;/p&gt;
+&lt;p&gt;You will have to use LD_PRELOAD every time before running Maya, so it migh be good creting some imple .sh script for that.&lt;/p&gt;
+&lt;p&gt;Hope that helps&lt;/p&gt;
+&lt;p&gt;Cheers&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Compiling Houdini USD plugins on Linux</title>
+        <link>https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/</link>
+        <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+        
+        <guid>https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/</guid>
+        <description>&lt;img src="https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/teaser.jpg" alt="Featured image of post Compiling Houdini USD plugins on Linux" /&gt;&lt;h2 id=&#34;usd&#34;&gt;USD&lt;/h2&gt;
+&lt;p&gt;For more info about what is USD and why it could interest you, check here:&lt;!-- raw HTML omitted --&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://graphics.pixar.com/usd/docs/Introduction-to-USD.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Pixar USD page&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;a class=&#34;link&#34; href=&#34;https://youtu.be/emcT5qXdUsc&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;SideFX&amp;rsquo;s USD-based SOLARIS project.&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Since version 17 Houdini comes with USD plugins. There is a catch though, you have to compile them yourself.&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;
+There is &lt;a class=&#34;link&#34; href=&#34;https://www.sidefx.com/tutorials/compiling-usd-plugins-for-houdini-windows-10/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;a video from Rachid Abderrahmane.&lt;/a&gt; on compiling the plugins on Windows.&lt;!-- raw HTML omitted --&gt;
+Even though compiling the plugins on Linux is much more simple, this could save someone a couple minutes.&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;h2 id=&#34;steps&#34;&gt;Steps&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m using popOS which is based on Ubuntu. On other linux distros the commands migth slightly differ.&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Start by installing cmake in terminal:&lt;!-- raw HTML omitted --&gt;
+{% highlight shell %}
+sudo apt install cmake
+{% endhighlight %}&lt;/p&gt;
+&lt;p&gt;Let&amp;rsquo;s say you have Houdini installed in /opt/hfs17.5.173/&lt;!-- raw HTML omitted --&gt;
+Under folder toolkit there is &lt;!-- raw HTML omitted --&gt;usd_houdini_plugins&lt;!-- raw HTML omitted --&gt; folder.&lt;!-- raw HTML omitted --&gt;
+&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 196; 
+			flex-basis: 470px&#34;
+	&gt;
+	&lt;a href=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/01.jpg&#34; data-size=&#34;865x441&#34;&gt;
+		&lt;img src=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/01.jpg&#34;
+			width=&#34;865&#34;
+			height=&#34;441&#34;
+			srcset=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/01_hu4d3bb5febb14b87d984ab69f868ff292_66906_480x0_resize_q75_box.jpg 480w, https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/01_hu4d3bb5febb14b87d984ab69f868ff292_66906_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;My helpful screenshot&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;My helpful screenshot&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;!-- raw HTML omitted --&gt;
+Copy that folder to e.g. &lt;!-- raw HTML omitted --&gt;home/YOUR_USER/Documents/temp/&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;(to avoid problem with user premissions)&lt;!-- raw HTML omitted --&gt;
+&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 269; 
+			flex-basis: 646px&#34;
+	&gt;
+	&lt;a href=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/02.jpg&#34; data-size=&#34;1007x374&#34;&gt;
+		&lt;img src=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/02.jpg&#34;
+			width=&#34;1007&#34;
+			height=&#34;374&#34;
+			srcset=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/02_hud13a9e3a63436fab5fb5182f9e4a4242_27678_480x0_resize_q75_box.jpg 480w, https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/02_hud13a9e3a63436fab5fb5182f9e4a4242_27678_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;My helpful screenshot&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;My helpful screenshot&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Make folder called &lt;!-- raw HTML omitted --&gt;build&lt;!-- raw HTML omitted --&gt; under the &lt;!-- raw HTML omitted --&gt;usd_houdini_plugins folder.&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 258; 
+			flex-basis: 619px&#34;
+	&gt;
+	&lt;a href=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/03.jpg&#34; data-size=&#34;976x378&#34;&gt;
+		&lt;img src=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/03.jpg&#34;
+			width=&#34;976&#34;
+			height=&#34;378&#34;
+			srcset=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/03_hu4d3bb5febb14b87d984ab69f868ff292_77576_480x0_resize_q75_box.jpg 480w, https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/03_hu4d3bb5febb14b87d984ab69f868ff292_77576_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;My helpful screenshot&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;My helpful screenshot&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+in terminal cd to this folder:
+{% highlight shell %}
+cd /home/YOUR_USER/Documents/temp/usd_houdini_plugins
+{% endhighlight %}&lt;/p&gt;
+&lt;p&gt;export CMAKE_PREFIX_PATH variable:
+{% highlight shell %}
+export CMAKE_PREFIX_PATH=&amp;quot;/opt/hfs17.5.173/toolkit/cmake&amp;quot;
+{% endhighlight %}&lt;/p&gt;
+&lt;p&gt;Build the plugins:
+{% highlight shell %}
+cmake /opt/hfs17.5.173/toolkit/usd_houdini_plugins
+{% endhighlight %}&lt;/p&gt;
+&lt;p&gt;And install:
+{% highlight shell %}
+make -j8 install
+{% endhighlight %}&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 327; 
+			flex-basis: 785px&#34;
+	&gt;
+	&lt;a href=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/06.jpg&#34; data-size=&#34;1224x374&#34;&gt;
+		&lt;img src=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/06.jpg&#34;
+			width=&#34;1224&#34;
+			height=&#34;374&#34;
+			srcset=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/06_hu4d3bb5febb14b87d984ab69f868ff292_114913_480x0_resize_q75_box.jpg 480w, https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/06_hu4d3bb5febb14b87d984ab69f868ff292_114913_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;My helpful screenshot&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;My helpful screenshot&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;If everything went ok, then after starting Houdini you should be able to create USD nodes.
+For more info about how to use them go to &lt;a class=&#34;link&#34; href=&#34;https://graphics.pixar.com/usd/docs/A-Tour-of-USD-Houdini-Primitives.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;USD Houdini documentation&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure 
+	
+		class=&#34;gallery-image&#34; 
+		style=&#34;
+			flex-grow: 224; 
+			flex-basis: 537px&#34;
+	&gt;
+	&lt;a href=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/07.jpg&#34; data-size=&#34;715x319&#34;&gt;
+		&lt;img src=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/07.jpg&#34;
+			width=&#34;715&#34;
+			height=&#34;319&#34;
+			srcset=&#34;https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/07_hu4d3bb5febb14b87d984ab69f868ff292_57353_480x0_resize_q75_box.jpg 480w, https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/07_hu4d3bb5febb14b87d984ab69f868ff292_57353_1024x0_resize_q75_box.jpg 1024w&#34;
+			loading=&#34;lazy&#34;
+			alt=&#34;My helpful screenshot&#34;&gt;
+	&lt;/a&gt;
+	
+	&lt;figcaption&gt;My helpful screenshot&lt;/figcaption&gt;
+	
+&lt;/figure&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

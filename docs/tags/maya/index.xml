@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Maya on kubo-von.github.io</title>
+    <link>https://kubo-von.github.io/tags/maya/</link>
+    <description>Recent content in Maya on kubo-von.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kubo-von.github.io/tags/maya/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Maya On Pop!OS and Ubuntu 20.10</title>
+      <link>https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/</link>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/</guid>
+      <description>I&amp;rsquo;ve recently spent some time trying to make Maya 2020 work on PopOS 20.10. I was helping a friend, luckily I have no use for Maya myself anymore. But since this might be helpful for someone, I thought I&amp;rsquo;d share. I was using PopOS but all the steps except the last one should apply to ubuntu 20.10 too. Maya running on Ubuntu 20.10 Autodesk provides a GUIDE for installing Maya 2020 on Ubuntu 20.</description>
+    </item>
+    
+  </channel>
+</rss>

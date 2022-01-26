@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tutorials on kubo-von.github.io</title>
+    <link>https://kubo-von.github.io/categories/tutorials/</link>
+    <description>Recent content in tutorials on kubo-von.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 25 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://kubo-von.github.io/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installing Maya On Pop!OS and Ubuntu 20.10</title>
+      <link>https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/</link>
+      <pubDate>Tue, 25 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://kubo-von.github.io/p/installing-maya-on-popos-and-ubuntu-20.10/</guid>
+      <description>I&amp;rsquo;ve recently spent some time trying to make Maya 2020 work on PopOS 20.10. I was helping a friend, luckily I have no use for Maya myself anymore. But since this might be helpful for someone, I thought I&amp;rsquo;d share. I was using PopOS but all the steps except the last one should apply to ubuntu 20.10 too. Maya running on Ubuntu 20.10 Autodesk provides a GUIDE for installing Maya 2020 on Ubuntu 20.</description>
+    </item>
+    
+    <item>
+      <title>Compiling Houdini USD plugins on Linux</title>
+      <link>https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/</guid>
+      <description>USD For more info about what is USD and why it could interest you, check here:Pixar USD pageSideFX&amp;rsquo;s USD-based SOLARIS project.Since version 17 Houdini comes with USD plugins. There is a catch though, you have to compile them yourself.There is a video from Rachid Abderrahmane. on compiling the plugins on Windows.Even though compiling the plugins on Linux is much more simple, this could save someone a couple minutes.Steps I&amp;rsquo;m using popOS which is based on Ubuntu.</description>
+    </item>
+    
+  </channel>
+</rss>

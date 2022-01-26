@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Houdini on kubo-von.github.io</title>
+    <link>https://kubo-von.github.io/tags/houdini/</link>
+    <description>Recent content in Houdini on kubo-von.github.io</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 31 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://kubo-von.github.io/tags/houdini/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Compiling Houdini USD plugins on Linux</title>
+      <link>https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://kubo-von.github.io/p/compiling-houdini-usd-plugins-on-linux/</guid>
+      <description>USD For more info about what is USD and why it could interest you, check here:Pixar USD pageSideFX&amp;rsquo;s USD-based SOLARIS project.Since version 17 Houdini comes with USD plugins. There is a catch though, you have to compile them yourself.There is a video from Rachid Abderrahmane. on compiling the plugins on Windows.Even though compiling the plugins on Linux is much more simple, this could save someone a couple minutes.Steps I&amp;rsquo;m using popOS which is based on Ubuntu.</description>
+    </item>
+    
+  </channel>
+</rss>
